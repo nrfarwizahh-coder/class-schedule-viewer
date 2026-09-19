@@ -7,8 +7,8 @@
 - Name: Class Schedule Viewer
 - Build shape: Browser-local tool
 - Shape confirmation: Confirmed
-- Current KDBM Lite stage: Build
-- Current phase: GitHub + Vercel Proof
+- Current KDBM Lite stage: Shipped
+- Current phase: Shipped
 - Current work card: `work-cards/07-github-vercel-proof.md`
 
 ## Completed work cards
@@ -25,16 +25,16 @@
 - [x] 04 Update and Delete Item
 - [x] 05 localStorage Save and Refresh
 - [x] 06 Review and Fix
+- [x] 07 GitHub and Vercel Proof
 
 ## In progress
 
-- [ ] Work Card 07 — GitHub and Vercel Proof
+- [ ] Vercel deployment (pending user action)
 
 ## Blockers
 
 - Workspace folder not loaded in IDE (user to open `kdbm-lite-starter\class schedule` in coding workspace)
-- GitHub repo not yet created
-- Vercel deployment not yet done
+- Vercel deployment pending
 
 ## Decisions made
 
@@ -43,7 +43,7 @@
 - Stack: Vite + React + plain CSS
 - Design inspiration: The Digital Curator (premium/editorial, official/institutional)
 - Storage: localStorage (key: `class-schedule`)
-- Deployment target: GitHub + Vercel if available
+- Deployment target: GitHub + Vercel
 
 ## Last verified state
 
@@ -54,10 +54,11 @@
 - npm: 11.19.0
 - Git: version 2.55.0.windows.5
 - GitHub account: Confirmed
+- GitHub repo: https://github.com/nrfarwizahh-coder/class-schedule-viewer
 - Vercel account: Confirmed
 - KrackedDevs account: Confirmed
 - Localhost: Ready (dev server confirmed running on port 5173)
-- Build: Work Card 07 in progress, production build successful (36 modules, 412ms)
+- Build: All work cards complete
 
 ## Completed planning files
 
@@ -76,6 +77,17 @@
 - work-cards/06-review-and-fix.md
 - work-cards/07-github-vercel-proof.md
 
+## GitHub
+
+- Repository: https://github.com/nrfarwizahh-coder/class-schedule-viewer
+- Branch: main
+- Status: Pushed successfully
+
+## Vercel
+
+- Status: Pending user deployment
+- Instructions: Go to vercel.com → Add New Project → Import class-schedule-viewer from GitHub → Build command: npm run build → Output directory: dist → Deploy
+
 ## Next instruction for AI
 
-Follow `prompts/08-github-vercel-proof.md` for GitHub push and Vercel deploy guidance.
+Project complete. Waiting on Vercel deployment for live URL.
