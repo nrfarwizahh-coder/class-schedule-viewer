@@ -77,17 +77,14 @@
 - work-cards/06-review-and-fix.md
 - work-cards/07-github-vercel-proof.md
 
-## GitHub
+## Deployment
 
-- Repository: https://github.com/nrfarwizahh-coder/class-schedule-viewer
+- GitHub repo: https://github.com/nrfarwizahh-coder/class-schedule-viewer
 - Branch: main
 - Status: Pushed successfully
-
-## Vercel
-
-- Status: Pending user deployment
-- Instructions: Go to vercel.com → Add New Project → Import class-schedule-viewer from GitHub → Build command: npm run build → Output directory: dist → Deploy
+- GitHub Pages: Enabled via `.github/workflows/deploy.yml` (build on push → deploy)
+- Vercel: Pending user deployment (login at vercel.com → import from GitHub → build `npm run build` → output `dist`)
 
 ## Next instruction for AI
 
-Project complete. Waiting on Vercel deployment for live URL.
+Project complete. GitHub Pages workflow configured — enable in repo Settings → Pages → Source: GitHub Actions. Vercel available as alternative.
